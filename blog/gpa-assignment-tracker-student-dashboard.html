@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GPA Tracker &amp; Assignment Tracker: A Student Dashboard for Grades, Deadlines &amp; Habits</title>
+<meta name="description" content="Need a GPA tracker spreadsheet or assignment tracker in Google Sheets / Excel? How a single student dashboard calculates GPA automatically, holds every deadline, and tracks study hours &amp; habits — plus a ready-made $7 template.">
+<meta name="keywords" content="gpa tracker spreadsheet, assignment tracker google sheets, student dashboard template, grade calculator spreadsheet, habit tracker for students, study log spreadsheet">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://rererenren.github.io/blog/gpa-assignment-tracker-student-dashboard.html">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="GPA Tracker &amp; Assignment Tracker: One Student Dashboard for Grades, Deadlines &amp; Habits">
+<meta property="og:description" content="How a single student dashboard spreadsheet calculates GPA automatically, tracks every assignment deadline, and turns study hours and habits into numbers you can improve.">
+<meta property="og:url" content="https://rererenren.github.io/blog/gpa-assignment-tracker-student-dashboard.html">
+<meta property="og:image" content="https://rererenren.github.io/pins/rainy.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "GPA Tracker & Assignment Tracker: A Student Dashboard for Grades, Deadlines & Habits",
+  "description": "How a single student dashboard spreadsheet calculates GPA automatically, holds every deadline, and tracks study hours and habits in Excel or Google Sheets.",
+  "image": "https://rererenren.github.io/pins/rainy.jpg",
+  "author": {"@type": "Organization", "name": "Yuu ✿ Cozy Study Tools"},
+  "publisher": {"@type": "Organization", "name": "Yuu ✿ Cozy Study Tools", "url": "https://rererenren.github.io/"},
+  "datePublished": "2026-10-07",
+  "mainEntityOfPage": "https://rererenren.github.io/blog/gpa-assignment-tracker-student-dashboard.html"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Study Planner & Student Dashboard (Excel + Google Sheets)",
+  "description": "Student dashboard spreadsheet with automatic GPA calculation, assignment tracker with due dates and priorities, grade calculator, study log and habit tracker. Works in Excel and Google Sheets.",
+  "brand": {"@type": "Brand", "name": "rererenren"},
+  "offers": {
+    "@type": "Offer",
+    "price": "7.00",
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "url": "https://rererenren.gumroad.com/l/study-planner-student-dashboard"
+  }
+}
+</script>
+
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: linear-gradient(160deg, #1a1a2e 0%, #16213e 60%, #0f3460 100%);
+    color: #e8eaf0; min-height: 100vh; line-height: 1.75;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+  a { color: #e94560; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .back { display: inline-block; margin-bottom: 1.5rem; color: #b8c1ec; }
+  h1 { font-size: 2.1rem; line-height: 1.25; margin-bottom: 0.9rem; }
+  .meta { color: #8892b0; font-size: 0.92rem; margin-bottom: 1.6rem; }
+  .lead { font-size: 1.15rem; color: #c9d1e8; margin-bottom: 2rem; }
+  h2 { font-size: 1.55rem; margin: 2.2rem 0 0.85rem; color: #fff; border-left: 4px solid #e94560; padding-left: 0.75rem; }
+  h3 { font-size: 1.18rem; margin: 1.5rem 0 0.55rem; color: #fff; }
+  p { margin-bottom: 1.15rem; color: #c9d1e8; }
+  ul, ol { margin: 0 0 1.25rem 1.35rem; color: #c9d1e8; }
+  li { margin-bottom: 0.55rem; }
+  .cta {
+    display: inline-block; background: #e94560; color: #fff; padding: 0.85rem 1.7rem;
+    border-radius: 28px; font-weight: 700; margin: 0.35rem 0.35rem 0.35rem 0; text-decoration: none;
+  }
+  .cta:hover { transform: translateY(-2px); text-decoration: none; box-shadow: 0 8px 22px rgba(233,69,96,0.4); }
+  .box {
+    background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 14px; padding: 1.5rem; margin: 1.8rem 0;
+  }
+  .box h3 { margin-top: 0; }
+  .toc { background: rgba(255,255,255,0.05); border-radius: 12px; padding: 1.15rem 1.5rem; margin-bottom: 2rem; }
+  .toc strong { color: #fff; }
+  .toc ol { margin: 0.5rem 0 0 1.2rem; }
+  footer { text-align: center; padding: 2.5rem 1rem; color: #8892b0; font-size: 0.88rem; border-top: 1px solid rgba(255,255,255,0.08); margin-top: 2.5rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <a class="back" href="https://rererenren.github.io/">← Back to the shop</a>
+
+  <h1>GPA Tracker &amp; Assignment Tracker: A Student Dashboard for Grades, Deadlines &amp; Habits</h1>
+  <div class="meta">By Yuu ✿ Cozy Study Tools · Updated Oct 2026 · 10 min read</div>
+
+  <p class="lead">Your GPA, your deadlines, and your daily habits are three views of the same thing: how the semester is actually going. Yet most students track them in three different places — or in none. A <strong>student dashboard spreadsheet</strong> that calculates GPA automatically, holds every assignment, and logs your study hours turns "I think I'm fine" into a number. Here's how that system works, and how to set one up in Excel or Google Sheets.</p>
+
+  <div class="toc">
+    <strong>What we'll cover</strong>
+    <ol>
+      <li>Why grade tracking alone isn't enough</li>
+      <li>GPA tracking: how automatic calculation works</li>
+      <li>Assignment tracker: deadlines and priorities in one list</li>
+      <li>Study log &amp; habit tracker: the consistency layer</li>
+      <li>The dashboard: what to look at, and when</li>
+      <li>Free vs paid templates — and a ready-made $7 option</li>
+    </ol>
+  </div>
+
+  <h2>Why grade tracking alone isn't enough</h2>
+  <p>A grade is a lagging indicator. By the time a score exists, the study sessions that produced it are weeks in the past. If your only feedback loop is grades, you find out you're in trouble at exactly the moment you can no longer fix it.</p>
+  <p>Students who actually improve during a semester run two feedback loops at once: a slow one (grades and GPA) and a fast one (did I study today? did I hit my habits this week?). The fast loop is what changes behavior — it turns up while there's still a month of runway left. That's why a good <strong>student dashboard template</strong> doesn't stop at grades: it puts effort metrics next to outcome metrics so you can see the connection.</p>
+
+  <h2>GPA tracking: how automatic calculation works</h2>
+  <p>A good <strong>GPA tracker spreadsheet</strong> removes arithmetic from the process entirely. The setup is simple: each course gets its own weights (midterm, final, coursework, participation — whatever your syllabus uses), and as scores come back you enter them once. The sheet converts each score into grade points, applies the weights, and rolls everything up into a live GPA figure.</p>
+  <p>What that buys you, concretely:</p>
+  <ul>
+    <li><strong>Always know where you stand.</strong> Not "roughly a B-plus, I think" — the actual current number, at any moment in the term.</li>
+    <li><strong>Model the final before you take it.</strong> See what score you need on the last assessment to land where you want. Sometimes a 78% on the final is fine. Knowing that in advance changes how you allocate your study hours.</li>
+    <li><strong>Spot the bleeding course early.</strong> One course slipping is invisible in a vague overall feeling; it's obvious in a per-course breakdown.</li>
+    <li><strong>Stop doing grade math by hand.</strong> Percentage-to-GPA-point conversions are exactly the kind of arithmetic humans get wrong under stress.</li>
+  </ul>
+  <p>This is the core of the Grades &amp; GPA tab in the <a href="https://rererenren.gumroad.com/l/study-planner-student-dashboard">Study Planner &amp; Student Dashboard</a>: enter scores, and the GPA points and averages calculate themselves — then surface on the dashboard automatically.</p>
+
+  <h2>Assignment tracker: every deadline in one list</h2>
+  <p>The second half of the equation is the <strong>assignment tracker</strong>. The format matters less than the discipline: one list, every deadline, two fields that earn their keep — <em>due date</em> and <em>priority</em>.</p>
+  <h3>Why due date alone fails</h3>
+  <p>Sorting purely by date makes you a firefighter: whatever is nearest gets done, and the 30%-of-your-grade essay quietly loses the week to three small worksheets because they were due first. Priority breaks that tie. Sort by date to plan the week; check priority to make sure the heavy items got their hours before the deadline sprint begins.</p>
+  <h3>The weekly habit that makes it work</h3>
+  <p>Two minutes, once a week: open the Assignments tab, sort by due date, and block the coming week's study sessions on the Weekly Planner around what you see. That's it. The students who miss deadlines almost never lack a tracker — they lack this one weekly habit, and a tracker simple enough that checking it isn't a chore.</p>
+
+  <h2>Study log &amp; habit tracker: the consistency layer</h2>
+  <p>This is the fast feedback loop from earlier, and it comes in two forms:</p>
+  <ul>
+    <li><strong>Study log.</strong> Record sessions and watch total hours grow. It answers the question grades can't: did I actually put in the work? It also exposes avoidance patterns — the subject you've logged three hours for all month versus the one you've logged eleven for.</li>
+    <li><strong>Habit tracker.</strong> The daily micro-actions — reviewing notes, flashcards, reading ahead — checked off day by day. A completion percentage turns "I've been kind of consistent" into something you can see and improve.</li>
+  </ul>
+  <p>Neither is about grinding more. They're about making your effort <em>visible</em>, so that when the slow grade feedback arrives, you already know whether it reflects your inputs. If the grades are soft and the habit percentage is high, the problem is method, not effort — and that diagnosis only comes from having both numbers side by side.</p>
+
+  <h2>The dashboard: what to look at, and when</h2>
+  <p>The last piece is the one that makes the rest usable: a single screen where the important numbers are already computed. In the <a href="https://rererenren.gumroad.com/l/study-planner-student-dashboard">Study Planner &amp; Student Dashboard</a>, that's the Dashboard tab — live GPA, total study hours, and habit completion percentage, all pulled automatically from the tabs behind it.</p>
+  <p>A workable rhythm looks like this:</p>
+  <ul>
+    <li><strong>Daily (30 seconds):</strong> log today's study session, check today's habits.</li>
+    <li><strong>Weekly (10 minutes, Sunday):</strong> scan the Assignments tab, block the week's study sessions on the Weekly Planner.</li>
+    <li><strong>After any grade comes back (2 minutes):</strong> enter it, and glance at the dashboard to see where you now stand.</li>
+  </ul>
+  <p>Notice what's missing: no daily planning sessions, no system maintenance, no app-hopping. The dashboard exists so you spend your attention on studying, not on managing the study system.</p>
+
+  <h2>Excel or Google Sheets — your call</h2>
+  <p>The whole system works in both. The template ships as an Excel file and imports into Google Sheets via <em>File &gt; Import</em> with the formulas intact. Pick Excel for single-machine, snappy use; pick Google Sheets if you move between laptop, school desktop, and phone and want autosave without thinking. Either way you get the same seven tabs — dashboard, weekly planner, assignments, grades &amp; GPA, study log, habit tracker, and a built-in quick-start guide.</p>
+
+  <h2>Who this setup is for</h2>
+  <p>You don't need to be a straight-A student for a tracking system to pay off. It tends to help most in three situations:</p>
+  <ul>
+    <li><strong>You're juggling four or more courses.</strong> The more moving parts, the faster deadlines hide — and the more a single dashboard earns its keep.</li>
+    <li><strong>Your grades swing more than your effort does.</strong> Usually a sign that study hours are going to the wrong places, which only a study log makes visible.</li>
+    <li><strong>You've tried apps and abandoned them.</strong> If Notion, Todoist, and a paper planner all lasted two weeks, the problem is probably maintenance cost — and a single spreadsheet file has almost none.</li>
+  </ul>
+  <p>It also works fine beyond traditional students: remote learners, night-class students, anyone studying for certifications alongside a job. The tabs don't care whether "class" means a lecture hall or a self-paced course — a deadline is a deadline, and GPA-style averaging works for any weighted set of scores.</p>
+
+  <h2>Free vs paid: what $7 buys</h2>
+  <p>You can find free GPA calculators and free assignment trackers — usually as separate, single-purpose files. The thing they rarely give you is the connection between them: grades feeding a live GPA, habits feeding a completion rate, everything feeding one dashboard. Wiring that up yourself is a weekend of formula work, and re-wiring it every time something breaks gets old fast.</p>
+  <p>For a one-time $7, the <a href="https://rererenren.gumroad.com/l/study-planner-student-dashboard">Study Planner &amp; Student Dashboard</a> gives you all seven tabs working together on day one — clean, cozy design, automatic formulas, reusable every semester. Instant download, no account, no subscription. Buy once, use forever.</p>
+
+  <div class="box">
+    <h3>Get the Study Planner &amp; Student Dashboard — $7</h3>
+    <p>Auto-calculating GPA, assignment deadlines &amp; priorities, weekly planner, study log, and habit tracking — all connected to one dashboard. Works in Excel and Google Sheets.</p>
+    <p>
+      <a class="cta" href="https://rererenren.gumroad.com/l/study-planner-student-dashboard">Get it on Gumroad →</a>
+    </p>
+  </div>
+
+  <h2>Quick FAQ</h2>
+  <div class="box">
+    <h3>How does the GPA tracker calculate my GPA?</h3>
+    <p>Enter your scores per course; the sheet converts them to grade points and rolls them into a live GPA automatically — no manual math.</p>
+    <h3>Does the assignment tracker handle priorities?</h3>
+    <p>Yes. Every assignment gets a due date and a priority, so you can sort by deadline for the week and still protect the heavy items.</p>
+    <h3>Can I use it in Google Sheets if I don't have Excel?</h3>
+    <p>Yes. The Excel file imports into Google Sheets through File &gt; Import, formulas included. It also works the other way around.</p>
+    <h3>Is it reusable?</h3>
+    <p>Every semester. Duplicate the file, clear the entries, and you're set up again in about ten minutes.</p>
+  </div>
+
+  <p>Grades, deadlines, and habits don't need three systems. They need one file that does the math and shows you the truth a few minutes a day. That's the whole product — and it costs less than your next coffee.</p>
+
+  <p>
+    <a class="cta" href="https://rererenren.gumroad.com/l/study-planner-student-dashboard">Download the Study Planner &amp; Student Dashboard ($7) →</a>
+  </p>
+
+  <footer>
+    © 2026 Yuu ✿ Cozy Study Tools · Instant download on Gumroad ·
+    <a href="https://rererenren.gumroad.com/l/study-planner-student-dashboard">Study Planner &amp; Student Dashboard</a>
+  </footer>
+</div>
+</body>
+</html>
