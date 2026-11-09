@@ -53,9 +53,14 @@
     "url": "https://rererenren.gumroad.com/l/cozy-anime-mega-bundle",
     "shippingDetails": {
       "@type": "OfferShippingDetails",
-      "shippingRate": {"@type": "MonetaryAmount", "value": "0", "priceCurrency": "USD"},
+      "shippingRate": {"@type": "MonetaryAmount", "value": "0", "currency": "USD"},
       "deliveryMethod": "https://schema.org/OnlineDelivery",
-      "shippingDestination": {"@type": "DefinedRegion", "addressCountry": "US"}
+      "shippingDestination": {"@type": "DefinedRegion", "addressCountry": "US"},
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {"@type": "QuantitativeValue", "minValue": 0, "maxValue": 0, "unitCode": "DAY"},
+        "transitTime": {"@type": "QuantitativeValue", "minValue": 0, "maxValue": 0, "unitCode": "DAY"}
+      }
     },
     "hasMerchantReturnPolicy": {
       "@type": "MerchantReturnPolicy",
